@@ -107,6 +107,13 @@ article h2 {
   border-radius: 20px;
   background-size:125%;
   margin-left: 10px;
+  -webkit-transition:all 500ms ease-in-out 0s;
+    -o-transition:all 500ms ease-in-out 0s;
+    transition:all 500ms ease-in-out 0s;
+}
+
+.container1 .right:hover{
+    transform:translate(10px,10px);
 }
 
 .container2 {
@@ -171,6 +178,12 @@ article h2 {
 
 .img {
   margin: 5px;
+  -webkit-transition:all 500ms ease-in-out 0s;
+        -o-transition:all 500ms ease-in-out 0s;
+        transition:all 500ms ease-in-out 0s;
+}
+.img:hover{
+transform: scale(1.15);
 }
 
 .container4{
@@ -180,6 +193,9 @@ article h2 {
   width: 90%;
   justify-content: center;
   margin-top: 20px;
+}
+.vid{
+    margin: 5px;
 }
 
 footer {
