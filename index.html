@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<link href="reset.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script>
+<script src="js/parallaxie.min.js"></script>
+<link rel="stylesheet" href="css/animate.css">
+<script src="js/wow.min.js"></script>
+</head>
+
+<body>
+	<nav>
+	<h3><a href="#">國立和美實驗學校</a></h3>
+	<ul>
+		<li><a href="#a01">學校簡介</a></li>
+		<li><a href="#a02">學校理念、學制</a></li>
+		<li><a href="#a03">學校環境</a></li>
+		<li><a href="#a04">相關影片</a></li>
+		<li><a href="#a05">學校位置</a></li>
+	</ul>
+	</nav>
+
+    <header>
+      <h1 class="wow flipInX" data-wow-duration="1.5s">國&nbsp;立&nbsp;和&nbsp;美&nbsp;實&nbsp;驗&nbsp;學&nbsp;校</h1>
+    </header>
+
+ <main>
+    <article id="a01">
+        <h2 class="wow fadeInDown" data-wow-duration="1s">學校簡介</h2>
+        <div class="container1">
+        <div class="left wow slideInLeft" data-wow-duration="1s" data-wow-offset="200">國立和美實驗學校（簡稱和美實校、和實），是位於彰化縣和美鎮的一所特殊學校，前身為國立彰化仁愛實驗學校。於1968年創校，最初設置國小部及國中部，招收肢體障礙學生。目前特教部每年級設有幼稚部1班，國小部1班，國中部3班，招收肢體障礙學生；高職部分為綜合職能科1班，招收智能障礙學生，實用技能科3班（含美工組、商業組及家政組），招收肢體障礙學生；高中部每年級包含普通班3班及體育班1班，採融合教育，同時招收一般高中生與肢體障礙學生。</div>
+        <div class="right wow slideInRight" data-wow-duration="1s" data-wow-offset="200"></div>
+		</div>
+	</article>
+
+	<article class="school" id="a02">
+		<h2 class="wow fadeInDown" data-wow-duration="1s">學校理念、學制</h2>
+		<div class="container2">
+		<div class="sch01 wow bounceInUp" data-wow-duration="1s" data-wow-offset="50">
+			<div class="schT">學校願景</div>
+		</div>
+		<div class="sch02 wow bounceInUp" data-wow-duration="1s" data-wow-delay="1s">
+			<div class="schT">學生圖像</div>	
+		</div>
+		<div class="sch03 wow bounceInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+			<div class="schT">本校學制</div>
+		</div>	
+		</div>
+	</article>   
+        
+      <article id="a03">
+      <h2 class="wow fadeInDown" data-wow-duration="1s">學校環境</h2>
+      <div class="container3">
+      	<div class="img wow pulse" data-wow-duration="1s" data-wow-offset="50"><img src="pic/01.jpg" width="350" height="200" alt=""/></div>
+      	<div class="img wow pulse" data-wow-duration="1s" data-wow-offset="50"><img src="pic/04.jpg" width="350" height="200" alt=""/></div>
+      	<div class="img wow pulse" data-wow-duration="1s" data-wow-offset="150"><img src="pic/05.jpg" width="708" height="200" alt=""/></div>
+      </div>
+     </article>
+
+     <article class="video" id="a04">
+     	<h2 class="wow fadeInDown" data-wow-duration="1s" >相關影片</h2>
+     	<div class="container4" >
+     	<iframe width="560" height="315" src="https://www.youtube.com/embed/U1uxyl5VyQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </iframe>
+     </article>
+
+     <article id="a05" style="padding-bottom: 0px">
+    <h2 class="wow fadeInDown" data-wow-duration="1s">學校位置</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.8920658280276!2d120.4892391146139!3d24.10529088104374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346947248d11d53f%3A0x847c567e481bbb1d!2z5ZKM576O5a-m6amX5a245qCh!5e0!3m2!1szh-TW!2stw!4v1646488947127!5m2!1szh-TW!2stw" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	</div>
+ 	</article>
+</main>
+    <footer>版權所有©葉芷茵</footer>
+
+<script>
+$('header').parallaxie({speed:0.5});
+</script>
+
+<script>
+$('.school').parallaxie({speed:0.8});
+</script>
+
+<script>
+new WOW().init();
+</script>
+</body>
+</html>
